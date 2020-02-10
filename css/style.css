@@ -125,7 +125,12 @@ h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(29, 185, 224, 0.8), rgba(29, 185, 224, 0.8)), url("../img/1.jpg") center top no-repeat;
+  background: linear-gradient(
+      45deg,
+      rgba(29, 185, 224, 0.8),
+      rgba(29, 185, 224, 0.8)
+    ),
+    url("../img/1.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -664,15 +669,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list {
-  padding: 0;
+  /* padding: 0; */
   list-style: none;
+}
+
+#faq #faq-list a {
+  /* box-shadow: 10px 0px 12px -10px rgba(0, 0, 0, 0.1); */
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 #faq #faq-list ul li {
   border-bottom: 0;
 }
 
-#faq #faq-list ul ul li{
+#faq #faq-list ul ul li {
   border-bottom: 1px solid #ddd;
 }
 
@@ -696,6 +706,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #faq #faq-list p {
   margin-bottom: 20px;
+  padding: 18px 0;
 }
 
 #faq #faq-list a.collapse {
@@ -720,7 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-about h3 {
-  font-size: 36px;
+  font-size: 38px;
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
@@ -732,39 +743,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-about p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
-  color: #888;
-}
-
-#contact .social-links {
-  padding-bottom: 20px;
-}
-
-#contact .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #fff;
-  color: #1da4cd;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-  border: 1px solid #1da4cd;
-}
-
-#contact .social-links a:hover {
-  background: #1da4cd;
-  color: #fff;
+  /* color: #888; */
+  color: #333333;
 }
 
 #contact .info {
   color: #333333;
+  /* color: #888; */
 }
 
 #contact .info i {
@@ -777,64 +765,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
-  font-size: 14px;
-}
-
-#contact .form #sendmessage {
-  color: #1da4cd;
-  border: 1px solid #1da4cd;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-#contact .form button[type="submit"] {
-  background: linear-gradient(45deg, #1dc8cd, #308ee6);
-  border: 0;
-  border-radius: 20px;
-  padding: 8px 30px;
-  color: #fff;
-}
-
-#contact .form button[type="submit"]:hover {
-  cursor: pointer;
-}
-
-#contact #map {
-  margin-right: auto;
+  font-size: 18px;
+  /* margin: auto; */
 }
 
 /*--------------------------------------------------------------
