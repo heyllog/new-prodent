@@ -125,11 +125,9 @@ h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(
-      45deg,
+  background: linear-gradient(45deg,
       rgba(29, 185, 224, 0.8),
-      rgba(29, 185, 224, 0.8)
-    ),
+      rgba(29, 185, 224, 0.8)),
     url("../img/1.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
@@ -257,12 +255,12 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   float: left;
 }
 
-.nav-menu li:hover > ul,
-.nav-menu li.sfHover > ul {
+.nav-menu li:hover>ul,
+.nav-menu li.sfHover>ul {
   display: block;
 }
 
@@ -314,7 +312,7 @@ h6 {
   outline: none;
 }
 
-.nav-menu > li {
+.nav-menu>li {
   margin-left: 10px;
 }
 
@@ -338,7 +336,7 @@ h6 {
   text-transform: none;
 }
 
-.nav-menu ul li:hover > a {
+.nav-menu ul li:hover>a {
   color: #1dc8cd;
 }
 
@@ -498,6 +496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about {
   padding: 60px 0;
   overflow: hidden;
+  background: #fff;
 }
 
 #about .about-img {
@@ -535,6 +534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
+  padding-left: 20px;
   color: #308ee6;
 }
 
@@ -668,18 +668,24 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
+
+
 #faq #faq-list {
-  /* padding: 0; */
   list-style: none;
 }
 
 #faq #faq-list a {
   /* box-shadow: 10px 0px 12px -10px rgba(0, 0, 0, 0.1); */
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #faq #faq-list ul li {
   border-bottom: 0;
+}
+
+.list li{
+  list-style-type: disc;
+  padding-top: 5px;
 }
 
 #faq #faq-list ul ul li {
