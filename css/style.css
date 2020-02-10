@@ -5,6 +5,7 @@
 body {
   background: #fff;
   color: #666666;
+  /* font-family: "Open Sans", sans-serif; */
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -497,6 +498,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0;
   overflow: hidden;
   background: #fff;
+  color: #777;
 }
 
 #about .about-img {
@@ -509,14 +511,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   max-width: 100%;
 }
 
-#about .content .h2 {
+#about .content h2 {
   color: #333;
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 24px;
 }
 
 #about .content h3 {
-  color: #777;
+  /* color: #777; */
+  /* color: rgb(0, 0, 0); */
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -525,6 +528,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .content p {
   line-height: 26px;
+  /* color: #777; */
 }
 
 #about .content p:last-child {
@@ -669,9 +673,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-
 #faq #faq-list {
   list-style: none;
+  padding-right: 2em;
 }
 
 #faq #faq-list a {
@@ -749,7 +753,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-about p {
-  font-size: 18px;
+  padding-top: 15px;
+  font-size: 16px;
   line-height: 24px;
   font-family: "Montserrat", sans-serif;
   /* color: #888; */
@@ -758,6 +763,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info {
   color: #333333;
+  
   /* color: #888; */
 }
 
@@ -771,7 +777,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 16px;
   /* margin: auto; */
 }
 
