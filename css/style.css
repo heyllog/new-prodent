@@ -108,6 +108,7 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  width: 92px;
 }
 
 #header.header-fixed {
@@ -495,7 +496,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-  padding: 60px 0;
+  padding: 60px 0 0 0;
   overflow: hidden;
   background: #fff;
   color: #777;
